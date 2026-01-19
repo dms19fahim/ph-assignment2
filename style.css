@@ -1,47 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box; font-family: "Inter", sans-serif;
 }
 
+/* Header Styles */
 .header{
-    background-color: #1A0B2E;
-    padding: 0px 200px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 92px;
+    background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px;
 }
-
 .logo-text span{
-    background: linear-gradient(rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.nav-bar ul{
+    list-style: none; display: flex; gap: 32px;
+}
+.nav-bar ul li a{
+    text-decoration: none; color: white; font-weight: 500; font-size: 16px;
+}
+.nav-bar ul li a:hover{
+    text-decoration: none;  background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 500; font-size: 16px;
+}
+.sub-btn{
+    background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: none; border-radius: 10000px;  padding: 12px 16px; color: white; font-weight: 600; font-size: 16px; cursor: pointer; display: flex; gap: 4px;
 }
 
-nav ul{
-    list-style: none;
+.hero-container{
+    background-image: url(Media/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
     display: flex;
-    gap: 32px;
 }
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
+.main-design{
+    border: 1px solid white; display: flex;
 }
 
-.subscribe-button{
-    background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
-    border: none;
-    border-radius: 10000px;
-    padding: 12px 24px;
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+/* Hero Section Styles */
+/* .hero-container{
+    background-image: url("Media/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.center-div{
+    margin: 101px auto; display: flex; flex-direction: column; gap: 40px;
+}
+.img-div{
+    margin: 0px 100px; position: relative;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.circle {
+  animation: rotate 2s linear infinite;
+}
+.mic-img{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.content-div{
+    margin: 0px; display: flex; flex-direction: column; gap: 24px;
+}
+.text-content h2{
+    font-size: 60px; font-weight: 800; color: #fff; margin-bottom: 8px;
+}
+.text-content p{
+    font-size: 16px; color: #fff; font-weight: 300;
+}
+.btn-group{
+    display: flex; gap: 8px; justify-content: center;
+}
+.gradient-btn{
+    background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: 2px; border-radius: 10000px; padding: 12px 20px; color: white; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
+}
+.secondary-btn{
+    background: transparent; border: 2px solid #00FF88; border-radius: 10000px; padding: 12px 20px; color: #00FF88; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; box-sizing: border-box; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
+} */
