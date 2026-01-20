@@ -1,10 +1,13 @@
 *{ 
-    margin: 0; padding: 0; box-sizing: border-box; font-family: "Inter", sans-serif;
+    margin: 0; padding: 0; box-sizing: border-box; font-family: "Inter", sans-serif; font-size: 16px; 
 }
 
 /* Header Styles */
 .header{
     background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px;
+}
+.logo-text h1, span{
+    font-size: 2rem;
 }
 .logo-text span{
     background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
@@ -13,34 +16,26 @@
     list-style: none; display: flex; gap: 32px;
 }
 .nav-bar ul li a{
-    text-decoration: none; color: white; font-weight: 500; font-size: 16px;
+    text-decoration: none; color: white; font-weight: 500; font-size: 1rem;
 }
 .nav-bar ul li a:hover{
-    text-decoration: none;  background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 500; font-size: 16px;
+    text-decoration: none;  background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 500; font-size: 1rem;
 }
 .sub-btn{
-    background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: none; border-radius: 10000px;  padding: 12px 16px; color: white; font-weight: 600; font-size: 16px; cursor: pointer; display: flex; gap: 4px;
+    background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: none; border-radius: 10000px;  padding: 12px 16px; color: white; font-weight: 600; font-size: 1rem; cursor: pointer; display: flex; gap: 4px;
 }
 
-/* Hero Section Styles */
+/* Hero Section Design */
 .hero-container{
-    background-image: url("Media/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url(Media/hero-bg.png); background-position: center; background-size: cover; background-repeat: no-repeat; height: 760px; display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
-.center-div{
-    margin: 101px auto; display: flex; flex-direction: column; gap: 40px;
+.design-grp{
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; margin: auto;
 }
-.img-div{
-    margin: 0px 100px; position: relative;
+.hero-illustration{
+    position: relative;
 }
+/* Background Circle Animation Start */
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -52,24 +47,38 @@
 .circle {
   animation: rotate 2s linear infinite;
 }
+/* Background Circle Animation End */
 .mic-img{
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
-.content-div{
-    margin: 0px; display: flex; flex-direction: column; gap: 24px;
+.hero-content{
+    text-align: center; display: flex; flex-direction: column; gap: 1.5rem;
 }
-.text-content h2{
-    font-size: 60px; font-weight: 800; color: #fff; margin-bottom: 8px;
+.text-content{
+    display: flex; flex-direction: column; gap: 0.5rem;
 }
-.text-content p{
-    font-size: 16px; color: #fff; font-weight: 300;
+.hero-content h2{
+    font-size: 4rem; color: #fff; font-weight: 800;
+}
+.hero-content p{
+    font-size: 1rem; color: #fff; font-weight: 300;
 }
 .btn-group{
-    display: flex; gap: 8px; justify-content: center;
+    display: flex; justify-content: center; gap: 0.5rem; margin: auto;
 }
+
 .gradient-btn{
     background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: 2px; border-radius: 10000px; padding: 12px 20px; color: white; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
 }
 .secondary-btn{
     background: transparent; border: 2px solid #00FF88; border-radius: 10000px; padding: 12px 20px; color: #00FF88; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; box-sizing: border-box; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
+}
+
+/* About Section Design */
+.about-stats{
+    background-color: #1A0B2E; color: #fff; display: flex; flex-direction: column; gap: 5rem; padding: 3.125rem 12.5rem 5rem;
+}
+
+.stats{
+    display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 5rem;
 }
