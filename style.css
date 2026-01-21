@@ -153,6 +153,7 @@
     color: #00FF88; font-size: 1rem; line-height: 1.5rem; font-weight: 600;
 }
 
+/* About Host part Design */
 .host{
     display: flex; flex-direction: column; gap: 2.5rem; justify-content: center; align-items: center;
 }
@@ -176,4 +177,40 @@
 
 .social-media a{
     display: inline-block; padding: 0.625rem; border-radius: 50%;
+}
+
+/* Footer Container Design */
+.footer-container{
+    background-image: url("Media/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25.75rem;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;
+}
+
+.sitemap{
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;
+}
+
+.footer-container h1, span{
+    font-size: 3.75rem; color: #fff;
+}
+
+.footer-container span{
+    background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+
+.podcast-links{
+    display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 2.5rem;
+}
+.last-link{
+    display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 0.5rem;
+}
+.last-link a{
+    text-decoration: none; color: #ffffff88; font-size: 1rem; font-weight: 500;
+}
+
+.footer-container p{
+    font-size: 1rem; font-weight: 400; line-height: 1.5rem; color: #ffffff88;
 }
