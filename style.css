@@ -4,7 +4,7 @@
 
 /* Header Styles */
 .header{
-    background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px; max-width: 100rem; margin: auto;
+    background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px; max-width: 112.5rem; margin: auto;
 }
 .logo-text h1, .logo-span{
     font-size: 2rem;
@@ -27,7 +27,7 @@
 
 /* Hero Section Design */
 .hero-container{
-    background-image: url(Media/hero-bg.png); background-position: center; background-size: cover; background-repeat: no-repeat; height: 760px; display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 100rem; margin: auto;
+    background-image: url(Media/hero-bg.png); background-position: center; background-size: cover; background-repeat: no-repeat; height: 760px; display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 112.5rem; margin: auto;
 }
 .design-grp{
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; margin: auto;
@@ -79,7 +79,7 @@
 
 /* About Section Design */
 .about-container{
-    background-color: #1A0B2E; display: flex; flex-direction: column; gap: 6rem; padding: 3.125rem 12.5rem 5rem; max-width: 100rem; margin: auto;
+    background-color: #1A0B2E; display: flex; flex-direction: column; gap: 6rem; padding: 3.125rem 12.5rem 5rem; max-width: 112.5rem; margin: auto;
 }
 .about-content{
     text-align: center; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem;
@@ -105,7 +105,7 @@
 
 /* Why Choose TechWave Section Design */
 .whyChoose-container{
-    background-color: #230e3d; padding: 8.5rem 12.5rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2.5rem;
+    background-color: #230e3d; padding: 8.5rem 12.5rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2.5rem; max-width: 112.5rem; margin: auto;
 }
 .whyChoose-container h2{
     color: #fff; font-size: 3rem; font-weight: 700;
@@ -143,7 +143,7 @@
 
 /* Featured Section Design */
 .featured-container{
-    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 7.5rem; padding: 7.5rem 12.5rem; background-color: #1A0B2E; max-width: 100rem; margin: auto;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 7.5rem; padding: 7.5rem 12.5rem; background-color: #1A0B2E; max-width: 112.5rem; margin: auto;
 }
 .featured-container h2{
     font-size: 3rem; font-weight: 700; color: #fff;
@@ -205,7 +205,7 @@
 
 /* Footer Container Design */
 .footer-container{
-    background-image: url("Media/footer-bg.png"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 25.75rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem; max-width: 100rem; margin: auto;
+    background-image: url("Media/footer-bg.png"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 25.75rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem; max-width: 112.5rem; margin: auto;
 }
 .sitemap{
     display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;
