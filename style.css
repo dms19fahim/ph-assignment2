@@ -4,7 +4,7 @@
 
 /* Header Styles */
 .header{
-    background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px;
+    background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px; max-width: 100rem; margin: auto;
 }
 .logo-text h1, span{
     font-size: 2rem;
@@ -27,7 +27,7 @@
 
 /* Hero Section Design */
 .hero-container{
-    background-image: url(Media/hero-bg.png); background-position: center; background-size: cover; background-repeat: no-repeat; height: 760px; display: flex; flex-direction: column; justify-content: center; align-items: center;
+    background-image: url(Media/hero-bg.png); background-position: center; background-size: cover; background-repeat: no-repeat; height: 760px; display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 100rem; margin: auto;
 }
 .design-grp{
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px; margin: auto;
@@ -70,7 +70,6 @@
 .btn-group{
     display: flex; justify-content: center; gap: 0.5rem; margin: auto;
 }
-
 .gradient-btn{
     background: linear-gradient(60deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); border: 2px; border-radius: 10000px; padding: 12px 20px; color: white; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
 }
@@ -78,12 +77,10 @@
     background: transparent; border: 2px solid #00FF88; border-radius: 10000px; padding: 12px 20px; color: #00FF88; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none; box-sizing: border-box; display: inline-flex; gap: 8px; justify-content: center; align-items: center;
 }
 
-
 /* About Section Design */
 .about-container{
-    background-color: #1A0B2E; display: flex; flex-direction: column; gap: 6rem; padding: 3.125rem 12.5rem 5rem;
+    background-color: #1A0B2E; display: flex; flex-direction: column; gap: 6rem; padding: 3.125rem 12.5rem 5rem; max-width: 100rem; margin: auto;
 }
-
 .about-content{
     text-align: center; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem;
 }
@@ -96,7 +93,6 @@
 .about-card{
     display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; gap: 5rem; color: #fff; text-align: center;
 }
-
 .card-item{
     text-align: center;
 }
@@ -107,35 +103,67 @@
     font-size: 1rem; font-weight: 400; color: #fff;
 }
 
+/* Why Choose TechWave Section Design */
+.whyChoose-container{
+    background-color: #230e3d; padding: 8.5rem 12.5rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2.5rem;
+}
+.whyChoose-container h2{
+    color: #fff; font-size: 3rem; font-weight: 700;
+}
+
+.grid-parent{
+    display: grid; gap: 1.675rem; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr);
+
+}
+.child-div{
+    background-color: #351165; padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; border-radius: 2.5rem; gap: 1rem;
+}
+
+.child-div h4{
+    font-size: 1.5rem; font-weight: 700; color: #fff;
+}
+.child-div p{
+    font-size: 1rem; font-weight: 400; line-height: 1.5rem; color: #ffffff88;
+}
+.headphone{
+    grid-row: span 2;
+}
+
+.phone, .global{
+    grid-column: span 2;
+}
+
+.speed{
+    grid-column: span 2;
+}
+
+.book{
+    grid-column: span 1;
+}
+
 /* Featured Section Design */
 .featured-container{
-    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 7.5rem; padding: 7.5rem 12.5rem; background-color: #1A0B2E;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 7.5rem; padding: 7.5rem 12.5rem; background-color: #1A0B2E; max-width: 100rem; margin: auto;
 }
 .featured-container h2{
     font-size: 3rem; font-weight: 700; color: #fff;
 }
-
 .featured-episode{
     display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2.5rem; 
 }
-
 .episodes-group{
     width: 100%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.875rem; 
 }
-
 .episode-card{
     background-color: #250D44;
     border-radius: 1.5rem; display: flex; flex-direction: column; overflow: hidden;
 }
-
 .episode-video{
     width: 100%; position: relative; aspect-ratio: 16 / 9;
 }
-
 .episode-video iframe{
     width: 100%; height: 100%;
 }
-
 .episode-description{
     padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;
 }
@@ -145,7 +173,6 @@
 .episode-description p{
     font-size: 1rem; font-weight: 400; color: #ffffff88; line-height: 1.5rem;
 }
-
 .duration-clock{
     display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 0.5rem;
 }
@@ -157,11 +184,9 @@
 .host{
     display: flex; flex-direction: column; gap: 2.5rem; justify-content: center; align-items: center;
 }
-
 .host-card{
     background-color: #250D44; display: flex; flex-direction: row; gap: 2rem; padding: 2.5rem; border-radius: 2.5rem;
 }
-
 .host-about{
     display: flex; flex-direction: column; gap: 1rem;
 }
@@ -174,33 +199,23 @@
 .social-media{
     display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 0.5rem;
 }
-
 .social-media a{
     display: inline-block; padding: 0.625rem; border-radius: 50%;
 }
 
 /* Footer Container Design */
 .footer-container{
-    background-image: url("Media/footer-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 25.75rem;
-    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;
+    background-image: url("Media/footer-bg.png"); background-position: center; background-repeat: no-repeat; background-size: cover; height: 25.75rem; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem; max-width: 100rem; margin: auto;
 }
-
 .sitemap{
     display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2rem;
 }
-
 .footer-container h1, span{
     font-size: 3.75rem; color: #fff;
 }
-
 .footer-container span{
     background: linear-gradient(0deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
 }
-
 .podcast-links{
     display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 2.5rem;
 }
@@ -210,7 +225,6 @@
 .last-link a{
     text-decoration: none; color: #ffffff88; font-size: 1rem; font-weight: 500;
 }
-
 .footer-container p{
     font-size: 1rem; font-weight: 400; line-height: 1.5rem; color: #ffffff88;
 }
