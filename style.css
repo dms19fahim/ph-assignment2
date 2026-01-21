@@ -280,5 +280,24 @@
 .btn-group{
     flex-direction: row; gap: 0.5rem; width: 100%;
 }
+.about-container{
+    padding: 2.5rem 1.25rem;
+    gap: 2.5rem;
+}
+.about-container h2{
+    font-size: 2rem; font-weight: 700; color: #fff;
+}
+.about-container p{
+    font-size: 1rem; font-weight: 400; color: #ffffff88; line-height: 1.25rem;
+}
+.about-card{
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem;
+}
+.about-card h3{
+    font-size: 2.5rem; font-weight: 700;
+}
+.about-card p{
+    font-size: 1rem; font-size: 400; line-height: 1.25rem; color: #ffffff88;
+}
 
 }
