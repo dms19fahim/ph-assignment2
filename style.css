@@ -249,3 +249,36 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.hero-container{
+    height: auto;
+    padding: 2.5rem 1.25rem; background-color: aquamarine;
+}
+.design-grp{
+    gap: 1.5rem;
+}
+.hero-illustration img.circle{
+    width: 12.5rem;
+    height: auto;
+}
+.hero-illustration img.mic-img{
+    width: 5rem;
+    height: auto;
+}
+.hero-illustration span{
+    top: 0.5rem; right: 0;
+}
+.hero-content h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.hero-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff88;
+}
+.btn-group{
+    flex-direction: row; gap: 0.5rem; width: 100%;
+}
+
+}
