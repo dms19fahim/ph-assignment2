@@ -6,7 +6,7 @@
 .header{
     background-color: #1A0B2E; padding: 0px 200px; color: white; display: flex; justify-content: space-between; align-items: center; height: 92px; max-width: 100rem; margin: auto;
 }
-.logo-text h1, span{
+.logo-text h1, .logo-span{
     font-size: 2rem;
 }
 .logo-text span{
